@@ -13,7 +13,6 @@ let j = a. getAttribute("style");
 console.log(j);
 let k = a. getAttribute("class");
 console.log(k);
-
 let m = a.removeAttribute("id");
 console.log(a);
 
