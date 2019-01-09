@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>To Do App</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+  <section id="app">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-2">
+          <div class="card">
+            <div class="card-body ml-4">
+              <h5 class="card-title text-center">TO DO APP</h5>
+              <div class="pb-2">
+                <input type="text" class="add-itms" value=""
+                placeholder="List Items">
+              </div>
+              <button class="btn btn-success" id="add">Add Items</button>
+              <div class="list pt-3">
+                <h5 class="card-title">ITEMS</h5>
+              </div>
+            </div>             
+            <div class="card ml-5 mr-5">
+              <div class="card-body">
+                <ol class="collection">
+                  <div class="delete">
+                    <li class="deleteAll">cup <i class="fas fa-times float-right" onclick="dlt()"></i></li>                    
+                  </div>
+                </ol>
+                <button class="btn btn-danger clear" id="clear">Clear Task</button>
+              </div>
+            </div>
+          </div>     
+
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <script src="js/DoApp.js"></script>
+</body>
+</html>
